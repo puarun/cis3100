@@ -4,6 +4,6 @@
 using namespace std;
 
 int main(){
-	cat_test();
+	palindrome();
 	return 0;
 }
