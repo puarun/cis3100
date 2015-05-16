@@ -4,6 +4,6 @@
 using namespace std;
 
 int main(){
-	palindrome();
+	faceDetect();
 	return 0;
 }

@@ -23,5 +23,5 @@ void timer(clock_t t);// times your program
 int myFactorial(int integer); // this programs demos the use of recursion
 // do an interesting exercise by timing it and also show the same thing using a for loop
 void palindrome();// for loop and array demo
-
+int faceDetect(); // face detection using webcam and OpenCV
 #endif /* MYHEADER_H_ */

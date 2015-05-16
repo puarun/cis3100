@@ -3,13 +3,14 @@
  *
  *  Created on: May 11, 2015
  *      Author: arun
+ *      This function will check if a given word is a palindrome.
  */
 #include <iostream>
 #include "MyHeader.h"
 using namespace std;
 
 void palindrome(){
-	char word[25] = "madam";
+	char word[25] = "malayalam";
 	int length=0; // length of the string
 	int flag; // flag to determine if palindrome or not
 
