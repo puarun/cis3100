@@ -28,7 +28,8 @@ int menu(){
 
 	switch(input){
 			case 1:number = add1(number);cout << number;break;
-		    case 2:number = mul2(number);cout << number;break;   //execution starts at this case label
+		    case 2:number = mul2(number);cout << number;break;
+		    //execution starts at this case label
 		    case 3:number = sub4(number);cout << number;break;
 		    default:cout <<"Goodbye ..";goto stop;
 	}

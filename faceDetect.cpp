@@ -56,7 +56,6 @@ int faceDetect()
         {
             Point pt1(faces[i].x + faces[i].width, faces[i].y + faces[i].height);
             Point pt2(faces[i].x, faces[i].y);
-
             rectangle(captureFrame, pt1, pt2, cvScalar(0, 255, 0, 0), 1, 8, 0);
         }
 
@@ -64,7 +63,7 @@ int faceDetect()
         imshow("outputCapture", captureFrame);
 
         //pause for 33ms
-        waitKey(33);
+        waitKey(25);
     }
 
     return 0;

@@ -4,6 +4,8 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../BSM.cpp \
+../BSM_unit.cpp \
 ../Cat.cpp \
 ../Main.cpp \
 ../add.cpp \
@@ -19,6 +21,8 @@ CPP_SRCS += \
 ../timer.cpp 
 
 OBJS += \
+./BSM.o \
+./BSM_unit.o \
 ./Cat.o \
 ./Main.o \
 ./add.o \
@@ -34,6 +38,8 @@ OBJS += \
 ./timer.o 
 
 CPP_DEPS += \
+./BSM.d \
+./BSM_unit.d \
 ./Cat.d \
 ./Main.d \
 ./add.d \
