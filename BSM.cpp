@@ -1,3 +1,7 @@
+/* A call option gives you the right to buy the stock at the strike price
+   A put option gives you the right to sell the stock at the strike price
+   This is a European put option, i.e. can be exercised only on date of maturity
+*/
 #include "Stock.h"
 #include <cmath>
 #ifndef Pi 

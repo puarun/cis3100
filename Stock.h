@@ -13,7 +13,8 @@ public:
 	~BSM();
 	double CND(double X);
 	double eval(double time = 365);
-	char *type();
+	char *type();// option type
+
 };
 int bsm_unit(); // unit test for bsm class
 

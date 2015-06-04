@@ -5,6 +5,8 @@
 using namespace std;
 
 int main(){
-	bsm_unit();
+
+	string a = "hello";
+	cout<<a.size();
 	return 0;
 }
