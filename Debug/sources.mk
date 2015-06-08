@@ -24,4 +24,6 @@ C_UPPER_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 . \
+CIS3100_summer15/Lec_June8 \
+CIS3100_summer15/Lec_June1 \
 

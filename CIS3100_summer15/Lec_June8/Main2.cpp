@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+int main2(){
 	// declaration of variable age
 	int age = 1;
  	while(age>=2)// less than will go into an infinite loop

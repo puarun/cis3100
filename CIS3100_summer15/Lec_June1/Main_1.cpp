@@ -19,7 +19,7 @@ using namespace std;
  * objects with static storage duration. It is the designated entry point to a program
  * that is executed in hosted environment */
 // int is the return type of the main function
-int main(){
+int main3(){
 	// cout puts values to the console
 	cout<<"Hello World!\n";
 	// return returns value when function execution is complete
