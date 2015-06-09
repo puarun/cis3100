@@ -15,6 +15,7 @@ CPP_SRCS += \
 ../for_loop.cpp \
 ../if_demo.cpp \
 ../menu.cpp \
+../menu_case.cpp \
 ../myFactorial.cpp \
 ../palindrome.cpp \
 ../switch_demo.cpp \
@@ -32,6 +33,7 @@ OBJS += \
 ./for_loop.o \
 ./if_demo.o \
 ./menu.o \
+./menu_case.o \
 ./myFactorial.o \
 ./palindrome.o \
 ./switch_demo.o \
@@ -49,6 +51,7 @@ CPP_DEPS += \
 ./for_loop.d \
 ./if_demo.d \
 ./menu.d \
+./menu_case.d \
 ./myFactorial.d \
 ./palindrome.d \
 ./switch_demo.d \

@@ -1,11 +1,20 @@
-#include <iostream>
-#include <cmath>
-#include "MyHeader.h"
-#include "Cat.h"
-#include "Stock.h"
-using namespace std;
+/*
+ * menu.cpp
+ *
+ *  Created on: Apr 23, 2015
+ *      Author: arun
+ *      This example illustrates case and do while
+ */
 
-int main(){
+#include <iostream>
+#include "MyHeader.h"
+using namespace std;
+//int add1(int num);
+//int mul2(int num);
+//int sub4(int num);
+
+
+int menu_case(){
 	int input,number;
 
 	cout <<"Enter your start number (an integer): "<<endl;
@@ -30,5 +39,21 @@ int main(){
 
 		stop:
 			return 0;
-	//return 0;
 }
+
+/*
+int add1(int num){
+	++num;
+	return num;
+}
+int mul2(int num){
+	num=num*4;
+	return num;
+}
+int sub4(int num){
+	num=num-4;
+	return num;
+}
+*/
+
+
