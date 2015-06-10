@@ -9,6 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include CIS3100_summer15/Lec_June8/subdir.mk
+-include CIS3100_summer15/Lec_June10/subdir.mk
 -include CIS3100_summer15/Lec_June1/subdir.mk
 -include subdir.mk
 -include objects.mk

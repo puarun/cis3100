@@ -5,7 +5,7 @@
 #include "Stock.h"
 using namespace std;
 
-int main(){
+int main123(){
 	int input,number;
 
 	cout <<"Enter your start number (an integer): "<<endl;
