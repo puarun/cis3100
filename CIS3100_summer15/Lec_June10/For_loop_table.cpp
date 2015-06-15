@@ -10,7 +10,7 @@ Date:
 using namespace std;
 
 int main (){
-	clock_t t = clock(); // the variable t hold start time of thye program
+	clock_t t = clock(); // the variable t hold start time of the program
 	int limit = 100; // initialize number of terms to 10
 	// using a for loop demonstarte table
 	cout << "Number		" << "Square		" << "Cube		"<<endl;
