@@ -25,6 +25,7 @@ C_UPPER_DEPS :=
 SUBDIRS := \
 . \
 CIS3100_summer15/Lec_June8 \
+CIS3100_summer15/Lec_June22 \
 CIS3100_summer15/Lec_June15 \
 CIS3100_summer15/Lec_June10 \
 CIS3100_summer15/Lec_June1 \
